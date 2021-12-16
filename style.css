@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.upperBody {
+    width: 100vw;
+    height: 35vh;
+    background-color: darkgreen;
+    padding: 30px;
+}
+.upper {
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+.uRight {
+    word-spacing: 5em;
+}
+.upper h1 {
+    font-size: 3em;
+    color: #fff;}
+.uRight .fa {
+    font-size: 2em;
+    color: #fff;
+}
+.lower .fa {
+    font-size: 2em;
+    color: #fff;
+}
+.lower a {
+    font-size: 2em;
+    text-decoration:none;
+    color: #fff;
+    transition: .5s;
+}
+.lower a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+.fa {
+    transition: 0.5s;
+}
+.fa:hover {
+    color: aqua;
+}
+.lowerBody {
+    width: 100vw;
+    /* height:100vh ; */
+    background: #fff;
+    padding: 30px;
+    background-size: cover;
+}
+.lowerBody img {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%
+    
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lLeft {
+    display: flex;
+    align-items: center;
+}
+.lLeft p {
+    font-size: .7em;
+    font-weight: 500;
+}
+.lLeft h2 {
+    font-size: 2em;
+    font-weight: 550;
+}
+img {
+
+    margin-right: 20px;
+}
+.first {
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width:823px) {
+    .upper h1 {
+        font-size: 2.5em;
+        }
+    .uRight .fa {
+        font-size: 1.5em;
+    }
+    .lower .fa {
+        font-size: 1.5em;
+    }
+    .lower a {
+        font-size: 1.5em;
+    }
+    .upperBody {
+        width: 100%;
+        height: 80%;
+    }
+    .uRight {
+        word-spacing: 1.5em;
+        margin-top: 1em;
+}
+.lLeft p {
+    font-size: 1em;
+    font-weight: 500;
+}
+.lLeft h2 {
+    font-size: 1.3em;
+    font-weight: 550;
+}
+img {
+    margin-right: .7em;
+}
+
+.lowerBody img {
+    width: 3.5em;
+    height: 3.5em;
+}
+ .first .lRight h2 {
+font-size: 1em;
+}
+.lowerBody {
+    width: 100%;
+}
+}
+@media screen and (max-width:480px) {
+    .upper h1 {
+        font-size: 2.4em;
+        }
+    .uRight .fa {
+        font-size: 1.6em;
+    }
+    .lower .fa {
+        font-size: 1.3em;
+    }
+    .lower a {
+        font-size: 1.1em;
+    }
+    .upperBody {
+        width: 100%;
+        height: 25vh;
+        padding: 25px;
+    }
+    .uRight {
+        word-spacing: 1.6em;
+        margin-top: 1em;
+}
+.lLeft p {
+    font-size: .9em;
+    font-weight: 500;
+}
+.lLeft h2 {
+    font-size: 1.1em;
+    font-weight: 550;
+}
+img {
+    margin-right: .7em;
+}
+
+.lowerBody img {
+    width: 2.5em;
+    height: 2.5em;
+}
+ .first .lRight h2 {
+font-size: .8em;
+}
+.lowerBody {
+    width: 100%;
+    padding: 20px;
+}
+ .lowerBody .first {
+margin-bottom: -10px;
+}
+.lower {
+    position: relative;
+    top: -8px;
+}
+}
